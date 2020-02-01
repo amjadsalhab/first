@@ -1,0 +1,82 @@
+#form-advanced-search {
+    border: 1px solid #ebebeb;
+    padding-bottom: 20px;
+    margin-bottom: 35px;
+    display: table;
+}
+#form-advanced-search .custom-panel {
+    border :none;
+    padding : 5px;
+}
+
+.custom-panel .card-header {
+    background-color: transparent;
+    margin-bottom: 15px;
+    padding: 7px 10px 13px;
+}
+.custom-list-group>.list-group-item{
+    border: none;
+    padding: 0 10px 14px 0;
+}
+
+.custom-list-group {
+    border-bottom: 1px solid #ebebeb;
+}
+
+#form-advanced-search input[type=checkbox]+label {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.custom-list-group>.list-group-item:last-child {
+  padding: 0 10px 0px 0;
+}
+
+.ui-slider {
+    margin: 25px 0 35px;
+    height: 2px;
+    background:#c5c5c5;
+}
+.ui-slider .ui-slider-handle {
+    background-color: #2980b9;
+    border: none;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    top: -6px;
+}
+
+.ui-slider .ui-slider-range {
+  border : 1px solid #2980b9;
+    top: -1px;
+}
+
+#form-advanced-search button {
+    font-size: 18px;
+    padding: 9px 0;
+}
+
+.custom-pagination li a {
+    border: 1px solid #ebebeb;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 3px;
+    margin-left: 3px;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.custom-pagination li.active a {
+    background-color: #2980b9;
+    color: #fff;
+    border-color: #2980b9;
+}
+
+.custom-pagination {
+    margin: 25px 0;
+}
+#search-results h3.heading-with-border-bottom {
+    margin-top: 0;
+}

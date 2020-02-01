@@ -1,0 +1,47 @@
+* {box-sizing: border-box;}
+
+/* Style the input container */
+.input-container777 {
+    margin-left: 25%;
+    display: flex;
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon777 {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+/* Style the input fields */
+.input-field777 {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-field777:focus {
+    border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn777 {
+    margin-left: 25%;
+    margin-bottom: 10px;
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+}
+
+.btn777:hover {
+    opacity: 1;
+}
+
